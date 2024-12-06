@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* FAQ Section */
+.faq-section {
+    margin-bottom: 30px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+/* Contact Section */
+.contact-section form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-section form label {
+    font-weight: bold;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.contact-section form button {
+    padding: 10px;
+    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background-color: #555;
+}
